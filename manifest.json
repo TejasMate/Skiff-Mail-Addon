@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Skiff Mail",
+  "description": "Integrates a Skiff Mail button into the Spaces toolbar. Tt opens the Skiff Mail website in a new tab.",
+  "version": "1.0",
+  "author": "Tejas Mate",
+  "applications": {
+    "gecko": {
+      "id": "tejasmate@pm.me",
+      "strict_min_version": "102.0"
+    }
+  },
+  "icons": {
+    "25": "skiff-mail.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
